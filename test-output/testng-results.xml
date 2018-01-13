@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12490" started-at="2018-01-12T22:32:33Z" finished-at="2018-01-12T22:32:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12490" started-at="2018-01-12T22:32:33Z" finished-at="2018-01-12T22:32:45Z">
+      <class name="com.naveenWebDriver.Frames2">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.naveenWebDriver.Frames2@3abbfa04]" name="testCase1" duration-ms="12460" started-at="2018-01-13T04:02:33Z" finished-at="2018-01-13T04:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.naveenWebDriver.Frames2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

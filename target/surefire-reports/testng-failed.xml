@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.naveentestNG.TestNG">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.naveentestNG.TestNG -->
+      <class name="com.datadriven.test.HalfEbayTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.datadriven.test.HalfEbayTest -->
+      <class name="com.naveentestNG.GoogleTitleTest">
+        <methods>
+          <include name="testCase3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- com.naveentestNG.GoogleTitleTest -->
+      <class name="com.naveentestNG.TestNGFeatures">
+        <methods>
+          <include name="testCase3"/>
+          <include name="testCase5"/>
+          <include name="testCase7"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- com.naveentestNG.TestNGFeatures -->
+      <class name="com.interviewQuestionsWebDriver.TestngException">
+        <methods>
+          <include name="dividedByZeroExample2"/>
+        </methods>
+      </class> <!-- com.interviewQuestionsWebDriver.TestngException -->
+      <class name="com.interviewQuestionsWebDriver.TestngAnnotation">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.interviewQuestionsWebDriver.TestngAnnotation -->
+      <class name="com.naveentestNG.GoogleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="googleLogoTest"/>
+        </methods>
+      </class> <!-- com.naveentestNG.GoogleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

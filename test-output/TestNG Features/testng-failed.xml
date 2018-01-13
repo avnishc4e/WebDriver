@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Features]">
+  <test name="Annotations of testNG(failed)">
+    <classes>
+      <class name="com.naveentestNG.GoogleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="googleLogoTest"/>
+        </methods>
+      </class> <!-- com.naveentestNG.GoogleTest -->
+      <class name="com.naveentestNG.TestNGFeatures">
+        <methods>
+          <include name="testCase3"/>
+          <include name="testCase5"/>
+          <include name="testCase7"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- com.naveentestNG.TestNGFeatures -->
+      <class name="com.naveentestNG.GoogleTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- com.naveentestNG.GoogleTitleTest -->
+    </classes>
+  </test> <!-- Annotations of testNG(failed) -->
+</suite> <!-- Failed suite [TestNG Features] -->

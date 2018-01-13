@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Features">
+  <test name="Annotations of testNG">
+    <classes>
+      <class name="com.naveentestNG.TestNG"/>
+      <class name="com.naveentestNG.InvocationCount"/>
+      <class name="com.naveentestNG.InfiniteLoop"/>
+      <class name="com.naveentestNG.GoogleTest"/>
+      <class name="com.naveentestNG.GoogleTitleTest"/>
+      <class name="com.naveentestNG.TestNGFeatures"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
